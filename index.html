@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio web con html, css, jQuery y bootstrap 5">
+    <meta name="keywords" content="Portafolio web, desarrollador web, portafolio con html css jQuery bootstrap v5">
+    <title>portafolio-juandevw3b</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container"> <a class="navbar-brand m-2" href="#">
+                <h2 class="logo animate__animated animate__fadeInLeft text-light h3">juandevw3b</h2>
+            </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#about">Acerca de</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#portfolio">Portafolio</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#contact">Contacto</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="assets/Cv-Juan-Perez.pdf" target="_blank"><i
+                                class="fa fa-download"></i> Cv</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="text-light animate__animated animate__bounce logo">¡Bienvenido a mi Portafolio!</h1>
+            <p class="welcome title"><strong>Soy juandevw3b, un desarrollador web independiente.</strong></p>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="text-center text-light logo">Acerca de mí</h2>
+            <p class="mt-3 texto text-light">Soy un desarrollador web apasionado con 2 años de experiencia en la
+                industria.
+                Me
+                especializo en el desarrollo de sitios web y aplicaciones web a medida utilizando tecnologías como
+                HTML5, CSS3, JavaScript, Bootstrap y más.</p>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-center text-light logo">Portafolio</h2>
+            <div class="row" id="portfolio-gallery">
+                <div class="col-md-4 mt-5">
+                    <div class="card"> <img src="assets/pokemon.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title p-2">Api PokeDex</h5>
+                            <p class="card-text p-2">Consumo de api pokeapi con react y axios para obtener los primeros
+                                151
+                                pokemones. </p>
+                            <button class="btn btn-dark p-2 mb-3">
+                                <a class="link" href="https://horus-eye.github.io/poke-fan-api/" target="_blank">
+                                    Ir a Proyecto
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card"> <img src="assets/dbApi.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title p-2">Rest-Api</h5>
+                            <p class="card-text p-2">Api rest de alta de productos (CRUD) con el patron MVC (backend:
+                                NodeJs,
+                                Express,
+                                MongoDB ) , Front end React( View).s</p>
+                            <button class="btn btn-dark p-2 mb-3">
+                                <a class="link" href="https://github.com/horus-eye/api-products" target="_blank">
+                                    Ir a Proyecto <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card"> <img src="assets/proyect3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title p-2">Products</h5>
+                            <p class="card-text p-2">Proyecto de CRUD con Php , Mysql, Html5 , Bootstrap Y JQuery,
+                                Incio
+                                de sesion con credenciales de la base de datos para entrar al proyecto y poder operar.
+                            </p>
+                            <button class="btn btn-dark p-2 mb-3">
+                                <a class="link" href="https://github.com/horus-eye/products" target="_blank">
+                                    Ir a Proyecto <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container text-center justify-content-start">
+            <h2 class="text-center text-light logo">Contáctame</h2>
+            <ul class="contact-info mt-3">
+                <li class="mt-2 h6 email text-light"><i class="fas fa-envelope mt-2"></i>&nbsp;
+                    juanignacioperezmartinez59@gmail.com</li>
+                <li class="mt-2 h6 number text-light"><i class="fab fa-whatsapp mt-2"></i>&nbsp; +(52) 3312895667</li>
+
+        </div>
+        <div class="floating-div">
+            <div class="social-icons text-center">
+                <a href="https://www.github.com/horus-eye" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/juandevw3b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src=https://code.jquery.com/jquery-3.5.1.slim.min.js></script>
+    <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js></script>
+</body>
+
+</html>
